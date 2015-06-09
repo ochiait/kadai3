@@ -1,0 +1,5 @@
+language: generic
+script:
+    - bash -e ./gcd.sh 32 24
+    - bash -e ./gcd.sh 21 14
+    - bash -e ./gcd.sh 24 18
